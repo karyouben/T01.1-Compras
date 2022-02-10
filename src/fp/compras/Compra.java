@@ -14,7 +14,7 @@ public class Compra {
 	private LocalDateTime fechaSalida;
 	private Double totalCompra;
 	
-	
+	// Constructor
 	public Compra(String dni, String supermercado, String provincia, LocalDateTime fechaLlegada,
 			LocalDateTime fechaSalida, Double totalCompras) {
 		Checkers.check("El dni es incorrecto", Validators.validarDNI(dni));
