@@ -15,6 +15,10 @@ public class TestCompra {
 		System.out.println(fechaLlegada);
 		System.out.println(fechaSalida);
 		System.out.println(c);
+		
+		int n = 5; //No creo objetos, tipo básico
+		Integer n2 = 5; // Creo un objeto de tipo Integer
+		// System.out.println(n2.dobleValue());
 	}
 
 }
